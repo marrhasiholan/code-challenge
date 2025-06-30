@@ -1,12 +1,10 @@
-@import "tailwindcss/theme.css";
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
 
 @layer components {
    .glassmorphism {
     background: #ffffff1a;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid #ffffff33;
+    border: 1px solid #ffffffb0;
   }
 }

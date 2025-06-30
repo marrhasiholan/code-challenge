@@ -3,7 +3,8 @@
 import About from "@/components/about/page";
 import Hero from "@/components/hero/page";
 import Portfolio from "@/components/portfolio/page";
-import Skills from "@/components/skills/page";
+import Experience from "@/components/experience/page";
+import Contact from "@/components/contact/page"
 
 
 export default function HomePage() {
@@ -11,8 +12,9 @@ export default function HomePage() {
     <main>
       <Hero/>
       <About/>
-      <Skills/>
       <Portfolio/>
+      <Experience/>
+      <Contact/>
     </main>
   );
 }

@@ -1,5 +1,6 @@
 export interface Project {
   title: string;
+  description: string;
   technologies: string[];
   image: string;
   star: {
@@ -10,11 +11,13 @@ export interface Project {
   };
 }
 
-export const project: Project[] = [
+export const projects: Project[] = [
   {
     title: "Interactive Healthcare Data Analytics Platform for MedTech Startup",
+    description:
+      "Designed and developed a secure, scalable, and intuitive full-stack data analytics platform for a MedTech startup. This solution transforms complex patient data into clear, interactive visualizations, empowering researchers and healthcare providers with real-time insights for improved decision-making and operational efficiency.",
     technologies: ["React", "PostgreSQL", "Python (Flask)", "Docker", "GCP"],
-    image: "/project1.png",
+    image: "/project1.jpg",
     star: {
       situation:
         "An emerging MedTech startup faced significant challenges in visualizing and analyzing large, complex patient datasets collected from various medical devices. They urgently needed a secure, intuitive, and scalable platform capable of integrating data from disparate sources, enabling real-time analysis, and presenting clear insights to researchers and healthcare providers for better decision-making. Their existing system was an inefficient, error-prone, spreadsheet-based ad-hoc solution.",
